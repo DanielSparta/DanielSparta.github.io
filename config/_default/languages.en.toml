@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Mediocre blog"
+title = "DanielSparta's Blog"
 
 [params]
   displayName = "EN"
@@ -14,7 +14,7 @@ title = "Mediocre blog"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 # [author]
-#   name = "Your name here"
+#   name = "DanielSparta"
 #   image = "img/blowfish_logo.png"
 #   headline = "I'm only human"
 #   bio = "A little bit about you"
