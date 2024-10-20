@@ -10,13 +10,20 @@
     <script src="./index_files/jquery.min.js"></script>
     <script>
     setTimeout(() => {
-    document.addEventListener('keydown', function(event) {
-        if (event.key === 'F5') {
-            event.preventDefault();
-            console.log("hmm");
-        }
-    });
-    }, 1000);</script>
+    function preventF5(event) {
+    if (event.key === 'F5') {
+        event.preventDefault();
+        console.log("hmm");
+    }
+    }
+
+    document.addEventListener('keydown', preventF5);
+
+    setTimeout(() => {
+        document.removeEventListener('keydown', preventF5);
+    }, 2000);
+
+    </script>
     <style>
       @font-face {
         font-family: 'Namecat';
